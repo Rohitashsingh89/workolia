@@ -49,7 +49,7 @@ export default function logout() {
                                 <img src={comp2} className='card w-20' alt="Companies image" style={{width: "20%"}} />
                                 <img src={comp3} className='card w-20' alt="Companies image" style={{width: "20%"}} />
                                 <img src={comp4} className='card w-20' alt="Companies image" style={{width: "20%"}} />
-                                <img src={comp4} className='card w-20' alt="Companies image" style={{width: "20%"}} />
+                                <img src={comp5} className='card w-20' alt="Companies image" style={{width: "20%"}} />
 
                             </div>
                             <img src={img} alt="Companies image" />

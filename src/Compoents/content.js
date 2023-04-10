@@ -1,16 +1,20 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
-import img from '../Image/backlog2.png';
-import comp1 from '../Image/Com_logo/namebuzzfeed-smallfalse.png';
-import comp2 from '../Image/Com_logo/namedmm-smallfalse.png';
-import comp3 from '../Image/Com_logo/namejpx-smallfalse.webp';
-import comp4 from '../Image/Com_logo/namelineastoria-smallfalse.png';
-import comp5 from '../Image/Com_logo/nameomron-smallfalse.png';
+import img from './Image/backlog2.png';
+// import img2 from "./Image/img_backlog-hero.webp";
+// import img3 from "./Image/img_typetalk_main-slide3.avif";
+// import img4 from "./Image/img_backlog_main-slide3.avif";
+// import img5 from "./Image/img_typetalk_secondary-slide1.avif";
+import comp1 from './Image/Com_logo/namebuzzfeed-smallfalse.png';
+import comp2 from './Image/Com_logo/namedmm-smallfalse.png';
+import comp3 from './Image/Com_logo/namejpx-smallfalse.webp';
+import comp4 from './Image/Com_logo/namelineastoria-smallfalse.png';
+import comp5 from './Image/Com_logo/nameomron-smallfalse.png';
 
-export default function logout() {
+export default function content() {
     return (
         <>
-
+            <div className='bg-dark'>
             <section className="sc-9b3c0r-0 eyVPor bg-dark">
                 <div className="sc-irc15c-0 eIDnzF">
                     <div className="sc-c3i82x-3 fPgIBM">
@@ -29,40 +33,40 @@ export default function logout() {
                                 </div>
                             </div>
                             <div className="sc-c3i82x-2 igJpTB">
-                                <img src={img} alt="featured" />
+                                <img src={img} />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
             <div className="  bg-dark">
                 <h2 className="text-center mb-5">Trusted by over 18,000 companies worldwide</h2>
-                <div className="align-center text-center d-flex justify-content-center p-4">
-                    <div className="">
-                        <div className="container w-100 ">
-                            {/* <div className="row"> */}
-                            <div className="row w-100">
-                                <div className="p-4 m-4 col card">
-                                    <img src={comp1} alt="Companies images" />
-                                </div>
-                                <div className="p-4 m-4 col card">
-                                    <img src={comp2} alt="Companies images" />
-                                </div>
-                                <div className="p-4 m-4 col card">
-                                    <img src={comp3} alt="Companies images" />
-                                </div>
-                                <div className="p-4 m-4 col card">
-                                    <img src={comp4} alt="Companies images" />
-                                </div>
-                                <div className="p-4 m-4 col card">
-                                    <img src={comp5} alt="Companies images" />
-                                </div>
+
+
+            <div className="sc-9b3c0r-0 sc-611mot-4 fkmbUj jIWOLn bg-dark">
+                <div className="sc-irc15c-0 hzYjVQ">
+                    <div className="sc-55mu9u-0 gOMZiv secondary-carousel backlog w-100 m-auto">
+                        <div>
+                            <div className="sc-1ov8y9r-0 sc-55mu9u-2  htjBYA d-flex flex-wrap-wrap" role="tablist" data-active="0">
+                                <img src={comp1} className='card w-20' alt="Companies image" style={{width: "20%"}} />
+                                <img src={comp2} className='card w-20' alt="Companies image" style={{width: "20%"}} />
+                                <img src={comp3} className='card w-20' alt="Companies image" style={{width: "20%"}} />
+                                <img src={comp4} className='card w-20' alt="Companies image" style={{width: "20%"}} />
+                                <img src={comp5} className='card w-20' alt="Companies image" style={{width: "20%"}} />
+
                             </div>
-                            {/* </div> */}
+                            <img src={img} alt="Companies image" />
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
+
+
+
+
+
             <section className="sc-9b3c0r-0 iloHnR bg-dark">
                 <div className="sc-irc15c-0 eIDnzF">
                     <h2 className="sc-13nzdod-0 sc-611mot-0 jHrurw ftPucT">
@@ -73,7 +77,7 @@ export default function logout() {
                         <div className="sc-3t9u48-1 kSmYTK">
                             <div className="sc-3t9u48-2 hPpkZk">
                                 <div aria-hidden="false" className="sc-3t9u48-4 cQVzcN">
-                                    <img src={img} alt="Companies images" />
+                                    <img src={img} alt="Companies image" />
                                 </div>
                             </div>
                             <div className="sc-3t9u48-5 dXzWVv">
@@ -154,7 +158,7 @@ export default function logout() {
                                     Version <br />Control
                                 </button>
                             </div>
-                            <img src={img} alt="Companies images" />
+                            <img src={img} alt="Companies image" />
                         </div>
                     </div>
                 </div>
@@ -860,10 +864,13 @@ export default function logout() {
 
                 </div>
             </section>
-
+        </div>
 
 
 
         </>
     )
 }
+
+
+// export default content;
