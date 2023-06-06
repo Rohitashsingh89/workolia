@@ -1,8 +1,8 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 
-import logo from '../Image/Workolia.png';
-import img from '../Image/backlog2.png';
+import logo from '../Image/stackshare.png';
+import img from '../Image/stackshare.png';
 
 
 
