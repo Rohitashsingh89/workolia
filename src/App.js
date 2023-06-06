@@ -2,10 +2,9 @@ import './App.css';
 // import './style.css';
 // import './utils.css';
 
-import logo from './Image/Workolia.png';
+import logo from './Image/stackshare.png';
 
 import { Route, Routes } from 'react-router-dom'
-
 import Header from './Compoents/header';
 import { Footer } from './Compoents/footer';
 import Content from './Compoents/content';
@@ -23,9 +22,9 @@ import Meta from './Compoents/meta';
 function App() {
   return (
     <>
-        {/* <Router> */}
+        <Router>
           <Meta/>
-          <Header title="Workolia" />
+          <Header title="stackshare" />
 
           <Routes>
             <Route path='/' element={<Content/>} />
@@ -40,7 +39,7 @@ function App() {
           </Routes>
 
           <Footer log={logo}/>
-        {/* </Router> */}
+        </Router>
         
     </>
   )
